@@ -1,0 +1,142 @@
+body,h1,h2,h3,h4,h5,h6,p,div,table,label,input,select,ul,a {
+	font-family: 'Prompt', sans-serif !important;
+}
+h4.bigger {
+    font-size: 18px;
+}
+
+
+/**
+ * Framework starts from here ...
+ * ------------------------------
+ */
+
+.tree,
+.tree ul {
+  font-size: 16px;
+  margin:0 0 0 1em; /* indentation */
+  padding:0;
+  list-style:none;
+  color:#369;
+  position:relative;
+}
+
+.tree ul {margin-left:.5em} /* (indentation/2) */
+
+.tree:before,
+.tree ul:before {
+  content:"";
+  display:block;
+  width:0;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  border-left:1px solid;
+}
+
+.tree li {
+  margin:0;
+  padding:0 1.5em; /* indentation + .5em */
+  line-height:2em; /* default list item's `line-height` */
+  font-weight:bold;
+  position:relative;
+}
+
+.tree li:before {
+  content:"";
+  display:block;
+  width:10px; /* same with indentation */
+  height:0;
+  border-top:1px solid;
+  margin-top:-1px; /* border top width */
+  position:absolute;
+  top:1em; /* (line-height/2) */
+  left:0;
+}
+
+.tree li:last-child:before {
+  background:white; /* same with body background */
+  height:auto;
+  top:1em; /* (line-height/2) */
+  bottom:0;
+}
+
+.label {
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 85%;
+    font-weight: normal;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+}
+.displaypro {
+    width: 60px;
+}
+
+
+.col-red {
+    background-color: #FFB0B0;
+}
+.col-green {
+    background-color: #B1FFB1;
+}
+
+.profile-info-name {
+  text-align: right;
+  padding: 6px 10px 6px 4px;
+  font-weight: 400;
+  color: #667E99;
+  background-color: transparent;
+  border-top: 1px dotted #D5E4F1;
+  display: table-cell;
+  width: 180px;
+  vertical-align: middle;
+}
+
+
+
+a.menucar {
+  padding: 15px;
+  display: block;
+  text-decoration: none;
+  margin-top: 15px;
+  background-color: #ffedff;
+}
+.bigger-450 {
+  font-size: 450%!important;
+}
+a.menucar div.txt-menu {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.widget-box.transparent>.widget-header {
+    background: 0 0;
+    border-width: 0;
+    border-bottom: 1px solid #DCE8F1;
+    color: #4383B4;
+    padding-left: 3px;
+    background-color: #efefef;
+}
+
+
+.table-header {
+    background-color: #003d61;
+    color: #FFF;
+    font-size: 14px;
+    line-height: 38px;
+    padding-left: 12px;
+    margin-bottom: 1px;
+}
+.header.blue {
+    border-bottom-color: #003d61;
+}
+
+.blue {
+    color: #003d61!important;
+}

@@ -1,0 +1,248 @@
+body {
+  font-family: "Varela Round", Arial, sans-serif;
+  overflow:auto;
+  font-weight: 400;
+  font-size:1.15em;
+  line-height: 1.25em;
+  color: #0000;
+  background: #fff;
+  height: 100%;
+  }
+
+.mySlides {display:none;}
+.post-content {
+	width:100%;
+	height:400px;
+}
+.post-content .mySlides{
+	position:relative;
+	top:10px;
+	display:block;
+	margin:0px auto;
+	border-radius:25px;
+
+}
+
+ul.navibar {
+	list-style-type: none;
+	float:right;
+	margin-right:15%;
+}
+ul.navibar  li{
+	font-size: 25px;
+	font-weight: bold;
+	color: #56271b;
+	text-decoration: none;
+	background-color: #fff;
+	padding: 0.5em;
+	border: 0.15em solid #81D6A6 ;
+	border-left:1em solid #81D6A6 ;
+	border-right:1em solid #81D6A6 ;
+	text-align: center;
+	display: inline;
+	border-radius:50%;
+	}
+ul.navibar li a{text-decoration: none;}
+ul.navibar li:hover{
+color: #fff; background-color:#D1628D;
+cursor:pointer;
+}
+a:visited{color:#660000;}
+
+.box1{
+	border:15px groove #A5DB67;
+	width:70%;
+	border-radius:25px;
+	padding:20px;
+	margin:10px auto;
+	 }
+.box1 h1::first-letter {
+    font-size: 200%;
+    color: #882048;
+}
+.box1 p::first-letter {
+    font-size: 200%;
+	font-weight:900;
+	color:#5C1967;
+	}
+.imgR
+{
+	float:right;
+	display: block
+	-webkit-border-radius:5%;
+	-moz-border-radius:5%;
+	border-radius:5%;
+	width:20%;
+	border:0.15em solid #FFE3D5;
+	padding:5px;
+	margin:1%;
+}
+.imgL
+{
+	float:left;
+	display: block
+	-webkit-border-radius:2%;
+	-moz-border-radius:2%;
+	border-radius:5%;
+	border:0.2em solid #FFE3D5;
+	margin:2%;
+}
+.imgRradius
+{
+	float:right;
+	display: block;
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+	border-radius:50%;
+	border:0.2em solid #FFE3D5;
+	margin-right:10%;
+}
+.imgcontent
+{
+	display: block
+	-webkit-border-radius:10%;
+	-moz-border-radius:10%;
+	border-radius:10%;
+	border:0.25em solid #C694CF;
+	margin:0.4%;
+	height:120px;
+}
+.contentiframe{
+width:100%;
+border:none;
+display:block;
+overflow: auto;
+margin-top:5%;
+height:300em;
+
+}
+.boxRed{
+	border:5px groove #8833B7;
+	width:70%;
+	border-radius:25px;
+	padding:20px;
+	margin:10px auto;
+	 }
+.boxRed .imgL
+{
+	float:left;
+	display: block;
+	-webkit-border-radius:2%;
+	-moz-border-radius:2%;
+	border-radius:2%;
+	border:0.25em solid #C694CF;
+	margin:2%;
+}
+.boxRed .imgR
+{
+	float:right;
+	display: block;
+	-webkit-border-radius:2%;
+	-moz-border-radius:2%;
+	border-radius:2%;
+	border:0.25em solid #C694CF;
+	margin:2%;
+}
+.boxRed  h1{
+    color: #A61414;
+}
+.imgred
+{
+	-webkit-border-radius:10%;
+	-moz-border-radius:10%;
+	border-radius:10%;
+	border:0.25em solid #C694CF;
+	margin:0.4%;
+	height:120px;
+}
+.imgW
+{
+	-webkit-border-radius:10%;
+	-moz-border-radius:10%;
+	border-radius:10%;
+	border:0.25em solid #8833B7;
+	margin:0.4%;
+	height:120px;
+}
+.imgB
+{
+	-webkit-border-radius:10%;
+	-moz-border-radius:10%;
+	border-radius:10%;
+	border:0.25em solid #fff;
+	margin:0.4%;
+	height:120px;
+}
+.imgTable
+{
+	-webkit-border-radius:15%;
+	-moz-border-radius:15%;
+	border-radius:15%;
+	width:220px;
+	height:170px;
+}
+.boxWhite{
+	border:5px groove #EA87BF;
+	width:58%;
+	border-radius:25px;
+	padding:20px;
+	margin-left:10%;
+	 }
+.boxBlack{
+	border:5px groove #000;
+	width:58%;
+	border-radius:25px;
+	padding:20px;
+	margin-left:10%;
+	background-color:#000;
+	color:white;
+	 }
+	 .boxWhite .imgL
+{
+	float:left;
+	display: block;
+	-webkit-border-radius:2%;
+	-moz-border-radius:2%;
+	border-radius:2%;
+	border:0.25em solid #EA87BF;
+	margin:2%;
+}
+.boxWhite .imgR
+{
+	float:right;
+	display: block;
+	-webkit-border-radius:2%;
+	-moz-border-radius:2%;
+	border-radius:2%;
+	border:0.25em solid #EA87BF;
+
+}
+textarea{
+	color:#000;
+	font-size:1.5em;
+
+}
+input[type=submit] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin:40px 2px;
+    cursor: pointer;
+	-webkit-border-radius:40%;
+	-moz-border-radius:40%;
+	border-radius:40%;
+}
+input[type=reset] {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 40px 2px;
+    cursor: pointer;
+	-webkit-border-radius:40%;
+	-moz-border-radius:40%;
+	border-radius:40%;
+}
